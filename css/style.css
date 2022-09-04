@@ -38,7 +38,7 @@ nav ul{
 }
 
 nav ul li a{
-  margin: 30px;
+  margin: 40px;
   font-family: myrid pro regular;
   color: #f6f8fa;
   font-size: 15px;
@@ -46,14 +46,19 @@ nav ul li a{
 }
 
 .logo{
+  margin: 30px;
   font-family: RoadTest;
-  color: #000000;
+  color: #f6f8fa;
   font-size: 22px;
+  font-weight: 700;
 }
 
 .active{
+  margin-left:300px ;
   font-weight: bold;
-  color: #2d2a2a;
+  color: #f6f8fa;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .text-container p:nth-child(1){
@@ -109,7 +114,7 @@ nav ul li a{
 
 .down-cv{
   background-color: #0b0b0b;
-  color: #FFFFFF;
+  color: #e6e3e3;
   border: none;
 }
 button:active{
@@ -128,7 +133,7 @@ button:active{
 .about-container{
   width: 80%;
   height: 330px;
-  background-color: #FFFFFF;
+  background-color: #e6e3e3;
   border-radius: 20px;
   box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
   display: flex;
@@ -166,14 +171,14 @@ button:active{
   width: 120px;
   height: 40px;
   border-radius: 10px;
-  color: #FFFFFF;
+  color: #e6e3e3;
   outline: none;
   font-family: calibri;
   background-color: #262525;
 }
 .services{
   height: 600px;
-  background-color: #FFFFFF;
+  background-color: #e6e3e3;
   padding: 2% 10% 0px 10%;
 }
 .services-text p:nth-child(1){
@@ -229,7 +234,7 @@ button:active{
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #FFFFFF;
+  background-color: #e6e3e3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -239,7 +244,7 @@ button:active{
 .box-1 p:nth-child(2),
 .box-2 p:nth-child(2),
 .box-3 p:nth-child(2){
-  color: #FFFFFF;
+  color: #e6e3e3;
   font-family: calibri;
   font-size: 23px;
   line-height: 0px;
@@ -258,7 +263,7 @@ button:active{
 .box-3 button{
   width: 100px;
   height: 30px;
-  background-color: #FFFFFF;
+  background-color: #e6e3e3;
   border: none;
   outline: none;
   border-radius: 5px;
@@ -275,16 +280,16 @@ button:active{
   align-items: center;
 }
 .contact-me p{
-  color: #FFFFFF;
+  color: #e6e3e3;
   font-size: 30px;
   font-family: calibri;
   font-weight: bold;
-  border-bottom: 2px solid #FFFFFF;
+  border-bottom: 2px solid #e6e3e3;
 }
 .contact-me button{
   width: 200px;
   height: 40px;
-  background-color: #FFFFFF;
+  background-color: #e6e3e3;
   outline: none;
   border: none;
   font-size: 14px;
@@ -298,7 +303,7 @@ footer{
   justify-content: center;
   align-items: center;
   position: relative;
-  background-color: #FFFFFF;
+  background-color: #e6e3e3;
 }
 footer p{
   font-family: calibri;
@@ -361,7 +366,8 @@ footer p:nth-child(2){
  border-radius: 0;
 }
 .social-icons a:hover,
-.a-social-b a:hover{
+.a-social-b a:hover
+{
  background-color:#000000;
  box-shadow:2px 2px 12px rgba(0,0,0,0.2);
  transition:all ease 0.5s;
